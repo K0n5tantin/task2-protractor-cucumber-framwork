@@ -1,0 +1,89 @@
+{
+    "WDS Menu": {
+        "isCollection": false,
+        "selector": ".middleMenu"
+    },
+    "WDS Menu Item SHOP": {
+        "isCollection": false,
+        "selector": ".middleMenu > #productStore"
+    },
+    "WDS Menu Sublists Products": {
+        "isCollection": false,
+        "selector": "#productNavStore"
+    },
+
+    "WDS Menu Sublists Products Row": {
+        "isCollection": true,
+        "selector": "section#productNavStore .brandNavStoreItem"
+    },
+    "WDS Menu Sublists Products Row All Brands": {
+        "isCollection": false,
+        "selector": "section#productNavStore .brandNavStoreItem [data-nav='store_all_nav']"
+    },
+    "WDS Menu Sublists Products Row WD": {
+        "isCollection": false,
+        "selector": "section#productNavStore .brandNavStoreItem [data-nav='store_wd_nav']"
+    },
+    "WDS Menu Sublists Products Row SanDisk": {
+        "isCollection": false,
+        "selector": "section#productNavStore .brandNavStoreItem [data-nav='store_sandisk_nav']"
+    },
+    "WDS Menu Sublists Products Row GTechnology": {
+        "isCollection": false,
+        "selector": "section#productNavStore .brandNavStoreItem [data-nav='store_sandisk_nav']"
+    },
+
+    "WDS Menu Item Wrap All Brands": {
+        "isCollection": false,
+        "selector": "section#productNavStore .menuItemWrap#store_all_nav"
+    },
+    "WDS Menu Item Wrap WD": {
+        "isCollection": false,
+        "selector": "section#productNavStore .menuItemWrap#store_wd_nav"
+    },
+    "WDS Menu Item Wrap SanDisk": {
+        "isCollection": false,
+        "selector": "section#productNavStore .menuItemWrap#store_sandisk_nav"
+    },
+    "WDS Menu Item Wrap GTechnology": {
+        "isCollection": false,
+        "selector": "section#productNavStore .menuItemWrap#store_gtech_nav"
+    },
+    "WDS Search Button": {
+        "isCollection": false,
+        "selector": ".button.searchbutton"
+    },
+    "WDS Search Input": {
+        "isCollection": false,
+        "selector": "#searchright"
+    },
+    "Order Status": {
+        "isCollection": false,
+        "selector": ".section.parbase .footer li a[href='/store/orderStatus']"
+    },
+    "Shopping FAQ": {
+        "isCollection": false,
+        "selector": ".section.parbase .footer li a[href='/shopping-faq']"
+    },
+    "Return Policy": {
+        "isCollection": false,
+        "selector": ".section.parbase .footer li a[href='/return-policy']"
+    },
+    "Warranty Policy": {
+        "isCollection": false,
+        "selector": ".section.parbase .footer li a[href='/warranty']"
+    },
+    "WDS footer": {
+        "isCollection": false,
+        "selector": ".footer"
+    },
+    "WDS Knowledge Base button": {
+        "isCollection": false,
+        "selector": ".ng-scope[ng-repeat^='facetVal in jsonData track by $index']:nth-child(4n) .checkbox"
+    },
+    "WDS Link List": {
+        "isCollection": true,
+        "selector": "div[ng-repeat='resultObj in searchResp.docs track by $index']"
+    }
+    
+}
